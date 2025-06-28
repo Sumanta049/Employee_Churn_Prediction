@@ -38,7 +38,7 @@ The goal is to assist HR departments in identifying high-risk employees early, e
 ## 📁 Project Structure
 
 ```
-employee-churn/
+Employee_Churn_Prediction/
 ├── employee_churn.ipynb            # Original notebook
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Dependencies (optional)
