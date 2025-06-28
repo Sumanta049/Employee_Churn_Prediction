@@ -12,6 +12,16 @@ The goal is to assist HR departments in identifying high-risk employees early, e
 
 ---
 
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Sumanta049/Employee_Churn_Prediction.git
+cd Employee_Churn_Prediction
+pip install -r requirements.txt
+```
+
 ## 🔍 Problem Statement
 
 - **Objective**: Predict whether an employee will leave (`left = 1`) or stay (`left = 0`).
