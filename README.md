@@ -24,12 +24,12 @@ The goal is to assist HR departments in identifying high-risk employees early, e
 
 | Category | Details |
 |---------|---------|
-| 💻 Models Used | Logistic Regression, Random Forest, XGBoost |
+| 💻 Models Used | Linear Regression, Logistic Regression, Random Forest, XGBoost |
 | 📊 Evaluation Metrics | Accuracy, F1 Score, ROC AUC, Confusion Matrix |
-| 🔁 Class Imbalance | Handled via SMOTE |
+| 🔁 Class Imbalance | Handled via stratify |
 | 🧪 Feature Engineering | Derived features: `recent_promotion`, `avg_hours_per_project` |
 | ⚖️ Fairness Analysis | Evaluated prediction bias by salary level |
-| 📈 Explainability | Feature importance (XGBoost), SHAP support |
+| 📈 Explainability | Feature importance (Random Forest) |
 | 🚀 Deployment Ready | Includes `predict_employee_status()` function |
 | 🧑‍💼 Business Use Case | Helps HR reduce turnover costs and increase retention |
 
@@ -40,7 +40,6 @@ The goal is to assist HR departments in identifying high-risk employees early, e
 ```
 employee-churn/
 ├── employee_churn.ipynb            # Original notebook
-├── enhanced_employee_churn.ipynb   # Cleaned, structured version
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Dependencies (optional)
 └── assets/                         # Visualizations and screenshots (optional)
@@ -93,7 +92,7 @@ predict_employee_status(model, employee)
 ## 📚 Acknowledgements
 
 - HR analytics dataset (Kaggle/UCI)
-- `scikit-learn`, `xgboost`, `seaborn`, `fairlearn`, `shap`
+- `scikit-learn`, `xgboost`, `seaborn`
 
 ---
 
@@ -101,4 +100,3 @@ predict_employee_status(model, employee)
 
 - 📓 [Enhanced Notebook](./enhanced_employee_churn.ipynb)
 - 🌐 [Streamlit App (coming soon)](#)
-- 💼 [Connect on LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
